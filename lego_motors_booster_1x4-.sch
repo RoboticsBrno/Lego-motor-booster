@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5920,21 +5920,6 @@ POWERMA</text>
 <pinref part="Q5" gate="1" pin="S"/>
 </segment>
 <segment>
-<wire x1="106.68" y1="20.32" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
-<label x="93.98" y="20.32" size="1.778" layer="95"/>
-<pinref part="X3" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="106.68" y1="-15.24" x2="93.98" y2="-15.24" width="0.1524" layer="91"/>
-<label x="93.98" y="-15.24" size="1.778" layer="95"/>
-<pinref part="X4" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="106.68" y1="-48.26" x2="93.98" y2="-48.26" width="0.1524" layer="91"/>
-<label x="93.98" y="-48.26" size="1.778" layer="95"/>
-<pinref part="X5" gate="G$1" pin="3"/>
-</segment>
-<segment>
 <wire x1="30.48" y1="83.82" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <label x="30.48" y="76.2" size="1.778" layer="95" rot="R90"/>
 <pinref part="JP2" gate="A" pin="2"/>
@@ -6021,69 +6006,6 @@ POWERMA</text>
 <wire x1="5.08" y1="45.72" x2="-30.48" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="6"/>
 <pinref part="X2" gate="G$1" pin="6"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="106.68" y1="17.78" x2="93.98" y2="17.78" width="0.1524" layer="91"/>
-<label x="93.98" y="17.78" size="1.778" layer="95"/>
-<pinref part="X3" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="106.68" y1="15.24" x2="93.98" y2="15.24" width="0.1524" layer="91"/>
-<label x="93.98" y="15.24" size="1.778" layer="95"/>
-<pinref part="X3" gate="G$1" pin="5"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="106.68" y1="12.7" x2="93.98" y2="12.7" width="0.1524" layer="91"/>
-<label x="93.98" y="12.7" size="1.778" layer="95"/>
-<pinref part="X3" gate="G$1" pin="6"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<wire x1="106.68" y1="-17.78" x2="93.98" y2="-17.78" width="0.1524" layer="91"/>
-<label x="93.98" y="-17.78" size="1.778" layer="95"/>
-<pinref part="X4" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<wire x1="106.68" y1="-20.32" x2="93.98" y2="-20.32" width="0.1524" layer="91"/>
-<label x="93.98" y="-20.32" size="1.778" layer="95"/>
-<pinref part="X4" gate="G$1" pin="5"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<wire x1="106.68" y1="-22.86" x2="93.98" y2="-22.86" width="0.1524" layer="91"/>
-<label x="93.98" y="-22.86" size="1.778" layer="95"/>
-<pinref part="X4" gate="G$1" pin="6"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<wire x1="106.68" y1="-50.8" x2="93.98" y2="-50.8" width="0.1524" layer="91"/>
-<label x="93.98" y="-50.8" size="1.778" layer="95"/>
-<pinref part="X5" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<wire x1="106.68" y1="-53.34" x2="93.98" y2="-53.34" width="0.1524" layer="91"/>
-<label x="93.98" y="-53.34" size="1.778" layer="95"/>
-<pinref part="X5" gate="G$1" pin="5"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<wire x1="106.68" y1="-55.88" x2="93.98" y2="-55.88" width="0.1524" layer="91"/>
-<label x="93.98" y="-55.88" size="1.778" layer="95"/>
-<pinref part="X5" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="MA0_OUT" class="0">
